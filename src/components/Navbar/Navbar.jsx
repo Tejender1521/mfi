@@ -29,11 +29,11 @@ function Navbar() {
 
   return (
     <>
-      <AppBar position="static" color="transparent">
-        <Toolbar className="text-white bg-indigo-700">
+      <AppBar position="sticky" color="transparent">
+        <Toolbar className="text-dark font-bold  text-gray-900 backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200">
           {/* Adding Company name or logo here  */}
           <Typography component="div" sx={{ flexGrow: 1 }}>
-            <img src={navlogo} className="h-16"></img>
+            <img src={navlogo} className="h-14 md:mx-5"></img>
           </Typography>
 
           {/* Navigation for laptop */}
@@ -70,10 +70,10 @@ function Navbar() {
             <GenMenu
               title="Join"
               list={[
-                { option: "Career With Us", href: "/career" },
-                { option: "Job Board", href: "/board" },
                 { option: "Internship", href: "/internship" },
                 { option: "Affiliation/Partners", href: "/affiliation" },
+                { option: "Job Board", href: "/board" },
+                { option: "Career With Us", href: "/career" },
               ]}
               sx={{ display: { xs: "none", lg: "flex" } }}
             />
@@ -105,7 +105,7 @@ function Navbar() {
               sx={{ display: { xs: "none", lg: "flex" } }}
             />
             <GenMenu
-              title="Internationals"
+              title="International"
               list={[
                 { option: "Journalists", href: "/journalist" },
                 { option: "Educators", href: "/int-educator" },
@@ -113,13 +113,18 @@ function Navbar() {
               ]}
               sx={{ display: { xs: "none", lg: "flex" } }}
             />
+            <GenMenu
+              title="CSR/Projects"
+              list={[{ option: "Projects", href: "/projects" }]}
+              sx={{ display: { xs: "none", lg: "flex" } }}
+            />
             <Link to="/contact">
-            <Button
-              color="inherit"
-              sx={{ display: { xs: "none", lg: "block" } }}
-            >
-              Contact Us
-            </Button>
+              <Button
+                color="inherit"
+                sx={{ display: { xs: "none", lg: "block" } }}
+              >
+                Contact Us
+              </Button>
             </Link>
 
             {/* Hamburger Icon  */}
@@ -185,10 +190,10 @@ function Navbar() {
                 title="Join"
                 func={closeDrawer}
                 list={[
-                  { option: "Career With Us", href: "/career" },
-                  { option: "Job Board", href: "/board" },
                   { option: "Internship", href: "/internship" },
                   { option: "Affiliation/Partners", href: "/affiliation" },
+                  { option: "Job Board", href: "/board" },
+                  { option: "Career With Us", href: "/career" },
                 ]}
               />
               <GenMenu
@@ -219,7 +224,7 @@ function Navbar() {
                 ]}
               />
               <GenMenu
-                title="Internationals"
+                title="International"
                 func={closeDrawer}
                 list={[
                   { option: "Journalists", href: "/journalist" },
@@ -227,10 +232,15 @@ function Navbar() {
                   { option: "Associations", href: "/association" },
                 ]}
               />
-              <Link to='/contact'>
-              <Button color="inherit" onClick={closeDrawer}>
-                Contact Us{" "}
-              </Button>
+              <GenMenu
+                title="CSR/Projects"
+                func={closeDrawer}
+                list={[{ option: "Projects", href: "/projects" }]}
+              />
+              <Link to="/contact">
+                <Button color="inherit" onClick={closeDrawer}>
+                  Contact Us{" "}
+                </Button>
               </Link>
             </Stack>
           </Drawer>

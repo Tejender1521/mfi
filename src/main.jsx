@@ -37,8 +37,8 @@ import Contact from "./pages/Contact/Contact";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root/>,
-    errorElement: <ErrorPage/>,
+    element: <Root />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
@@ -130,7 +130,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/publication",
-        element: <Comingsoon/>,
+        element: <Comingsoon />,
       },
       {
         path: "/journalist",
@@ -148,10 +148,12 @@ const router = createBrowserRouter([
         path: "/contact",
         element: <Contact />,
       },
-      
+      {
+        path: "/projects",
+        element: <Comingsoon />,
+      },
     ],
   },
-  
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

@@ -7,13 +7,11 @@ import sliderimg4 from "../../images/homeslider/4.webp";
 import { Carousel } from "flowbite-react";
 function Slide() {
   return (
-    
-      <Carousel>
-        <img alt="..." src={sliderimg1} />
-        <img alt="..." src={sliderimg3} />
-        <img alt="..." src={sliderimg4} />
-      </Carousel>
-    
+    <Carousel>
+      <img alt="..." src={sliderimg1} className="rounded-xl" />
+      <img alt="..." src={sliderimg3} className="rounded-xl" />
+      <img alt="..." src={sliderimg4} className="rounded-xl" />
+    </Carousel>
   );
 }
 

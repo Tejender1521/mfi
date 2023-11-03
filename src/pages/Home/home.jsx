@@ -12,6 +12,7 @@ import Slide from "./slide";
 
 function Home() {
   const [isDesktop, setDesktop] = useState(window.innerWidth > 1450);
+  
 
   const updateMedia = () => {
     setDesktop(window.innerWidth > 1450);
@@ -25,6 +26,7 @@ function Home() {
 
   return (
     <div>
+      
       <div className="first pb-5">
         <div className="container h-screen flex justify-center items-center">
           <div className="row  align-middle row-eq-height">

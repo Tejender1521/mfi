@@ -24,7 +24,7 @@ function Footer() {
                   >
                     <span class="sr-only">Facebook</span>
                     <svg
-                      class="h-6 w-6"
+                      class="h-12 w-12"
                       fill="currentColor"
                       viewBox="0 0 24 24"
                       aria-hidden="true"
@@ -47,7 +47,7 @@ function Footer() {
                   >
                     <span class="sr-only">Instagram</span>
                     <svg
-                      class="h-6 w-6"
+                      class="h-12 w-12"
                       fill="currentColor"
                       viewBox="0 0 24 24"
                       aria-hidden="true"
@@ -70,7 +70,7 @@ function Footer() {
                   >
                     <span class="sr-only">Twitter</span>
                     <svg
-                      class="h-6 w-6"
+                      class="h-12 w-12"
                       fill="currentColor"
                       viewBox="0 0 24 24"
                       aria-hidden="true"
@@ -92,7 +92,7 @@ function Footer() {
                       class="text-gray-700 transition hover:text-gray-700/75"
                       href="/"
                     >
-                      Company History
+                      PRINT MEDIA DIRECTORY
                     </a>
                   </li>
 
@@ -101,7 +101,7 @@ function Footer() {
                       class="text-gray-700 transition hover:text-gray-700/75"
                       href="/"
                     >
-                      Meet the Team
+                      PSU DIRECTORY
                     </a>
                   </li>
 
@@ -110,16 +110,7 @@ function Footer() {
                       class="text-gray-700 transition hover:text-gray-700/75"
                       href="/"
                     >
-                      Employee Handbook
-                    </a>
-                  </li>
-
-                  <li>
-                    <a
-                      class="text-gray-700 transition hover:text-gray-700/75"
-                      href="/"
-                    >
-                      Careers
+                      ELECTRONIC MEDIA DIRECTORY
                     </a>
                   </li>
                 </ul>
@@ -150,7 +141,7 @@ function Footer() {
                       </svg>
 
                       <span class="flex-1 text-gray-700">
-                        mediafederation@yahoo.com
+                        mfinewdelhi@gmail.com mediafederation@yahoo.com
                       </span>
                     </a>
                   </li>
@@ -175,7 +166,9 @@ function Footer() {
                         />
                       </svg>
 
-                      <span class="flex-1 text-gray-700">+91-9313462630</span>
+                      <span class="flex-1 text-gray-700">
+                        +91-986823022 / +91-9313462630
+                      </span>
                     </a>
                   </li>
 
@@ -210,43 +203,40 @@ function Footer() {
                 <h2>Subscribe</h2>
 
               </div> */}
-              
-                <form class="-mt-8">
-                  <div class="bg-white px-14 py-8 md:px-4 rounded-xl shadow-md">
-                    <div class="space-y-4">
-                      
-                      <div>
-                        <label
-                          for="email"
-                          class="block mb-1 text-gray-600 font-semibold"
-                        >
-                          Username
-                        </label>
-                        <input
-                          type="text"
-                          class="bg-indigo-50 px-4 py-2 outline-none rounded-md w-full"
-                        />
-                      </div>
-                      <div>
-                        <label
-                          for="email"
-                          class="block mb-1 text-gray-600 font-semibold"
-                        >
-                          Email
-                        </label>
-                        <input
-                          type="text"
-                          class="bg-indigo-50 px-4 py-2 outline-none rounded-md w-full"
-                        />
-                      </div>
-                      
+
+              <form class="-mt-8">
+                <div class="bg-white px-14 py-8 md:px-4 rounded-xl shadow-md">
+                  <div class="space-y-4">
+                    <div>
+                      <label
+                        for="email"
+                        class="block mb-1 text-gray-600 font-semibold"
+                      >
+                        Username
+                      </label>
+                      <input
+                        type="text"
+                        class="bg-indigo-50 px-4 py-2 outline-none rounded-md w-full"
+                      />
                     </div>
-                    <button class="mt-4 w-full bg-yellow-400 hover:bg-yellow-500 font-semibold py-2 rounded-md  tracking-wide">
-                      Subscribe
-                    </button>
+                    <div>
+                      <label
+                        for="email"
+                        class="block mb-1 text-gray-600 font-semibold"
+                      >
+                        Email
+                      </label>
+                      <input
+                        type="text"
+                        class="bg-indigo-50 px-4 py-2 outline-none rounded-md w-full"
+                      />
+                    </div>
                   </div>
-                </form>
-              
+                  <button class="mt-4 w-full bg-yellow-400 hover:bg-yellow-500 font-semibold py-2 rounded-md  tracking-wide">
+                    Subscribe
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
 

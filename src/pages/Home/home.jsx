@@ -6,7 +6,7 @@ import Slider from "./slider";
 import slides from "./mock.json";
 import "./home.css";
 import Slide from "./slide";
-
+import navlogo from "../../images/logo/navlogo.png";
 
 
 
@@ -32,7 +32,7 @@ function Home() {
           <div className="row  align-middle row-eq-height">
             <div className="col-lg-6 pl-10">
               {/* <div className="text-center">
-                <img className="pt-4" src={home} height="184" />
+                <img className="pt-4" src={navlogo} height="50" />
                 <br />
               </div> */}
               <h1 className="d-inline-block font-mono subpixel-antialiased text-4xl font-semibold pt-4">
@@ -134,7 +134,7 @@ function Home() {
               <div className="col-lg-8">
                 <div className="card-body pt-4">
                   <h1 className="card-title font-mono subpixel-antialiased text-4xl font-semibold d-inline-block pt-4">
-                    Careers
+                    Training
                   </h1>
                   <p className="card-text pt-4">
                     MEDIA FEDERATION OF INDIA PROVIDES CAREER OPPORTUNITIES TO
@@ -152,7 +152,7 @@ function Home() {
               <div className="col-lg-8">
                 <div className="card-body pt-4">
                   <h1 className="card-title font-mono subpixel-antialiased text-4xl font-semibold d-inline-block pt-4">
-                    Careers
+                    Training
                   </h1>
                   <p className="card-text pt-4">
                     MEDIA FEDERATION OF INDIA PROVIDES CAREER OPPORTUNITIES TO

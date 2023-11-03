@@ -113,11 +113,20 @@ function Navbar() {
               ]}
               sx={{ display: { xs: "none", lg: "flex" } }}
             />
-            <GenMenu
+            {/* <GenMenu
               title="CSR/Projects"
               list={[{ option: "Projects", href: "/projects" }]}
               sx={{ display: { xs: "none", lg: "flex" } }}
-            />
+            /> */}
+            <Link to="/projects">
+              <Button
+                variant="outlined"
+                color="error"
+                sx={{ display: { xs: "none", lg: "block" } }}
+              >
+                CSR/Projects{" "}
+              </Button>
+            </Link>
             <Link to="/contact">
               <Button
                 color="inherit"
@@ -232,11 +241,16 @@ function Navbar() {
                   { option: "Associations", href: "/association" },
                 ]}
               />
-              <GenMenu
+              {/* <GenMenu
                 title="CSR/Projects"
                 func={closeDrawer}
                 list={[{ option: "Projects", href: "/projects" }]}
-              />
+              /> */}
+              <Link to="/projects">
+                <Button variant="outlined" color="error">
+                  CSR/Projects
+                </Button>
+              </Link>
               <Link to="/contact">
                 <Button color="inherit" onClick={closeDrawer}>
                   Contact Us{" "}

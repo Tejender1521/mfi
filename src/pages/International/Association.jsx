@@ -19,7 +19,7 @@ import img4 from '../../images/association/4.jpg'
 function Association() {
   return (
     <>
-      <Title text="Association" />
+      <Title text="Association's" />
       <div className="w-screen flex flex-wrap justify-around px-2">
         <Box my={4} width={{ sx: "300px", md: "70%" }}>
           <Card>

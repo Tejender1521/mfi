@@ -89,8 +89,10 @@ function Navbar() {
             <GenMenu
               title="Forms"
               list={[
-                { option: "Membership", href: "/membership" },
-                { option: "Organization", href: "/organization" },
+                { option: "Membership Online", href: "/membership" },
+                { option: "Membership Offline", href: "/membership" },
+                { option: "Organization Online", href: "/organization" },
+                { option: "Organization Offline", href: "/organization" },
                 { option: "Fees", href: "/fee" },
               ]}
               sx={{ display: { xs: "none", lg: "flex" } }}

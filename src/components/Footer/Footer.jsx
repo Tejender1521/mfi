@@ -6,7 +6,7 @@ function Footer() {
     //   <h1 className='text-4xl border-2 border-red-800 px-7 py-2'>Footer</h1>
     // </div>
     <>
-      <footer class="bg-white">
+      <footer class="bg-[#ecf3f6]">
         <div class="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8 -mt-7">
           <div class="grid grid-cols-1 gap-4 lg:grid-cols-3">
             <div>
@@ -167,7 +167,7 @@ function Footer() {
                       </svg>
 
                       <span class="flex-1 text-gray-700">
-                        +91-986823022 / +91-9313462630
+                        +91-9868230229 / +91-9313462630
                       </span>
                     </a>
                   </li>
@@ -194,7 +194,7 @@ function Footer() {
                     </svg>
 
                     <address class="-mt-0.5 flex-1 not-italic text-gray-700">
-                      New Delhi
+                      New Delhi (India)
                     </address>
                   </li>
                 </ul>

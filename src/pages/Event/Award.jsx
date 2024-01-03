@@ -1,7 +1,7 @@
 import React from "react";
 import Title from "../../components/Title";
 import Para from "../../components/Para";
-import Hero from "../Hero/Hero";
+
 function Award() {
   return (
     <>

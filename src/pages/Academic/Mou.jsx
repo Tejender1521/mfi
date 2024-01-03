@@ -54,7 +54,7 @@ const data =[
 
   return (
     <>
-    <Title text='MoU'/>
+    <Title text="MoU's"/>
    <div className='w-screen flex flex-wrap justify-around px-2'>
    {
     data.map(item => (

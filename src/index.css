@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400&display=swap');
 .react-tabs__tab--selected {
   background-color: rgb(67 56 202);
   color: white;
@@ -5,7 +6,9 @@
   border-radius: 10px;
 }
 
-
+.khand-font{
+    font-family: 'Khand', sans-serif;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

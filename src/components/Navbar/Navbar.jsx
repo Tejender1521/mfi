@@ -68,6 +68,14 @@ function Navbar() {
               sx={{ display: { xs: "none", lg: "flex" } }}
             />
             <GenMenu
+              title="Publication"
+              list={[
+                { option: "Books", href: "/publication" },
+                { option: "Souvenir", href: "/publication" },
+              ]}
+              sx={{ display: { xs: "none", lg: "flex" } }}
+            />
+            <GenMenu
               title="Join"
               list={[
                 { option: "Internship", href: "/internship" },
@@ -102,7 +110,6 @@ function Navbar() {
               list={[
                 { option: "Educators", href: "/acad-educator" },
                 { option: "MoU", href: "/mou" },
-                { option: "Publication", href: "/publication" },
               ]}
               sx={{ display: { xs: "none", lg: "flex" } }}
             />
@@ -122,7 +129,7 @@ function Navbar() {
             /> */}
             <Link to="/projects">
               <Button
-                variant="outlined"
+                variant="contained"
                 color="error"
                 sx={{ display: { xs: "none", lg: "block" } }}
               >
@@ -198,6 +205,14 @@ function Navbar() {
                 ]}
               />
               <GenMenu
+                title="Publication"
+                func={closeDrawer}
+                list={[
+                  { option: "Books", href: "/publication" },
+                  { option: "Souvenir", href: "/publication" },
+                ]}
+              />
+              <GenMenu
                 title="Join"
                 func={closeDrawer}
                 list={[
@@ -249,7 +264,7 @@ function Navbar() {
                 list={[{ option: "Projects", href: "/projects" }]}
               /> */}
               <Link to="/projects">
-                <Button variant="outlined" color="error">
+                <Button variant="contained" color="error">
                   CSR/Projects
                 </Button>
               </Link>

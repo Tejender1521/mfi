@@ -29,11 +29,13 @@ import Video from "./pages/Gallery/Video";
 import AcadEducator from "./pages/Academic/Educator";
 import Mou from "./pages/Academic/Mou";
 import Association from "./pages/International/Association";
-import Membership from "./pages/Form/Membership";
-import Organization from "./pages/Form/Organization";
 import Fees from "./pages/Form/Fees";
 import Contact from "./pages/Contact/Contact";
-
+import MembershipOnline from "./pages/Form/MembershipOnline";
+import MembershipOffline from "./pages/Form/MembershipOffline";
+import OrganisationOnline from "./pages/Form/OrganisationOnline";
+import OrganisationOffline from "./pages/Form/OrganisationOffline";
+import AboutUs from "./pages/About/AboutUs";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -47,6 +49,10 @@ const router = createBrowserRouter([
       {
         path: "/advisor",
         element: <Advisor />,
+      },
+      {
+        path: "/aboutus",
+        element: <AboutUs />,
       },
       {
         path: "/member",
@@ -109,12 +115,20 @@ const router = createBrowserRouter([
         element: <Video />,
       },
       {
-        path: "/membership",
-        element: <Membership />,
+        path: "/membershiponline",
+        element: <MembershipOnline />,
       },
       {
-        path: "/organization",
-        element: <Organization />,
+        path: "/membershipoffline",
+        element: <MembershipOffline />,
+      },
+      {
+        path: "/organizationonline",
+        element: <OrganisationOnline />,
+      },
+      {
+        path: "/organizationoffline",
+        element: <OrganisationOffline />,
       },
       {
         path: "/fee",

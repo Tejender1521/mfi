@@ -42,7 +42,7 @@ function Educator() {
 
   return (
     <>
-      <Title text="Member Educators" />
+      <Title text="Member Educators & Research Team" />
 
       <ol className="list-decimal my-10 px-10">
         <Grid

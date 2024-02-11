@@ -27,7 +27,6 @@ function National() {
     {name: 'Dr. Rupesh Kumar', image: rupesh, tag:'North India President'},
     {name: 'K. Kumar', image: k, tag:'South India President'},
     {name: 'Prakash Asthana', image: prakash, tag:'Vice-President'},
-    {name: 'Ramesh Thakur', image: ramesh, tag:'Vice-President'},
     {name: 'Shishir Srivastav', image: shishir, tag:'Vice-President (Global Chapter)'},
     {name: 'Amita Sharma', image: amita, tag:'National Secretary'},
     {name: 'Anil Maheshwari', image: anil, tag:'National Secretary'},

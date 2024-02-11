@@ -29,11 +29,11 @@ function Navbar() {
 
   return (
     <>
-      <AppBar position="sticky" color="transparent">
-        <Toolbar className="text-dark font-bold  text-gray-900 backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200">
+      <AppBar position="relative" color="transparent">
+        <Toolbar className="text-dark font-bold md:h-24 text-gray-900 backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200">
           {/* Adding Company name or logo here  */}
           <Typography component="div" sx={{ flexGrow: 1 }}>
-            <img src={navlogo} className="h-14 md:mx-5"></img>
+            <img src={navlogo} className="h-14 md:h-24 md:mx-5"></img>
           </Typography>
 
           {/* Navigation for laptop */}
@@ -49,6 +49,7 @@ function Navbar() {
             <GenMenu
               title="About"
               list={[
+                { option: "About Us", href: "/aboutus" },
                 { option: "Our Advisors", href: "/advisor" },
                 { option: "National Team", href: "/national" },
                 { option: "State Team", href: "/state" },
@@ -97,10 +98,13 @@ function Navbar() {
             <GenMenu
               title="Forms"
               list={[
-                { option: "Membership Online", href: "/membership" },
-                { option: "Membership Offline", href: "/membership" },
-                { option: "Organization Online", href: "/organization" },
-                { option: "Organization Offline", href: "/organization" },
+                { option: "Membership Online", href: "/membershiponline" },
+                { option: "Membership Offline", href: "/membershipoffline" },
+                { option: "Organization Online", href: "/organizationonline" },
+                {
+                  option: "Organization Offline",
+                  href: "/organizationoffline",
+                },
                 { option: "Fees", href: "/fee" },
               ]}
               sx={{ display: { xs: "none", lg: "flex" } }}
@@ -187,6 +191,7 @@ function Navbar() {
                 title="About"
                 func={closeDrawer}
                 list={[
+                  { option: "About Us", href: "/aboutus" },
                   { option: "Our Advisors", href: "/advisor" },
                   { option: "National Team", href: "/national" },
                   { option: "State Team", href: "/state" },
@@ -235,8 +240,19 @@ function Navbar() {
                 title="Forms"
                 func={closeDrawer}
                 list={[
-                  { option: "Membership", href: "/membership" },
-                  { option: "Organization", href: "/organization" },
+                  { option: "Online Membership", href: "/membershiponline" },
+                  {
+                    option: "Online Organisation",
+                    href: "/organizationonline",
+                  },
+                  {
+                    option: "Offline Organisation",
+                    href: "/organizationoffline",
+                  },
+                  {
+                    option: "Offline Membership",
+                    href: "/membershipoffline",
+                  },
                   { option: "Fees", href: "/fee" },
                 ]}
               />

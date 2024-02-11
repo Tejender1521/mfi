@@ -194,7 +194,28 @@ function Home() {
             backgroundImage: `url(${aboutimg})`,
           }}
         ></div>
+        <div className="h-96 py-5 mx-3 items-center row">
+          <div className="col-lg-5 flex justify-center">
+            <h3 className="khand-font md:text-9xl md:font-light text-6xl font-medium md:ml-20">
+              Business Summit
+            </h3>
+          </div>
+          <div className="col-lg-7 khand-font font-light md:text-3xl text-xl">
+            <p>
+              MFI also organises business summit for the benefit of the
+              Newspaper publishers, news channels and digital mediums. These
+              Business summits are held in metrocities & major towns of the
+              Country.
+            </p>
+          </div>
+        </div>
 
+        <div
+          className="h-screen bg-center bg-no-repeat bg-cover bg-fixed"
+          style={{
+            backgroundImage: `url(${aboutimg})`,
+          }}
+        ></div>
         <div className="h-96 py-5 mx-3 items-center row">
           <div className="col-lg-5 flex justify-center">
             <h3 className="khand-font md:text-9xl md:font-light text-6xl font-medium md:ml-20">
@@ -215,29 +236,7 @@ function Home() {
             backgroundImage: `url(${eventimg})`,
           }}
         ></div>
-        <div className="h-96 py-5 mx-3 items-center row">
-          <div className="col-lg-5 flex justify-center">
-            <h3 className="khand-font md:text-9xl md:font-light text-6xl font-medium md:ml-20">
-              Business Summit
-            </h3>
-          </div>
-          <div className="col-lg-7 khand-font font-light md:text-3xl text-xl">
-            <p>
-              MFI also organises business summit for the benefit of the
-              Newspaper publishers, news channels and digital mediums. These
-              Business summits are held in metrocities & major towns of the
-              Country.
-            </p>
-          </div>
-        </div>
-        <div
-          className="h-screen bg-center bg-no-repeat bg-cover bg-fixed"
-          style={{
-            backgroundImage: `url(${businessimg})`,
 
-            // 'url("https://images.unsplash.com/photo-1521165582142-eaf4bd77b3f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80")',
-          }}
-        ></div>
         <div className="h-96 py-5 mx-3 items-center row">
           <div className="col-lg-5 flex justify-center">
             <h3 className="khand-font md:text-9xl md:font-light text-6xl font-medium md:ml-20">
@@ -254,6 +253,12 @@ function Home() {
             </p>
           </div>
         </div>
+        <div
+          className="h-screen bg-center bg-no-repeat bg-cover bg-fixed"
+          style={{
+            backgroundImage: `url(${businessimg})`,
+          }}
+        ></div>
       </div>
       <Marquee />
       {/* </div> */}

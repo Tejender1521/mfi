@@ -84,17 +84,19 @@ function Footer() {
 
             <div class="grid grid-cols-1 gap-8 pt-14 sm:grid-cols-2 md:grid-cols-3 lg:col-span-2">
               <div class="text-center sm:text-left">
-                <p class="text-2xl font-medium text-gray-900">About Us</p>
+                <p class="text-2xl font-medium text-gray-900">
+                  Important Links
+                </p>
 
                 <ul class="mt-8 space-y-4 text-sm">
-                  <li>
+                  {/* <li>
                     <a
                       class="text-gray-700 transition hover:text-gray-700/75"
                       href="/"
                     >
-                      PRINT MEDIA DIRECTORY
+                      MEDIA DIRECTORY
                     </a>
-                  </li>
+                  </li> */}
 
                   <li>
                     <a
@@ -110,7 +112,31 @@ function Footer() {
                       class="text-gray-700 transition hover:text-gray-700/75"
                       href="/"
                     >
-                      ELECTRONIC MEDIA DIRECTORY
+                      GOVERNMENT MEDIA DIRECTORY
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="text-gray-700 transition hover:text-gray-700/75"
+                      href="/"
+                    >
+                      GOVERNMENT MEDIA DIRECTORY
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="text-gray-700 transition hover:text-gray-700/75"
+                      href="/"
+                    >
+                      GOVERNMENT MEDIA DIRECTORY
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="text-gray-700 transition hover:text-gray-700/75"
+                      href="/"
+                    >
+                      GOVERNMENT MEDIA DIRECTORY
                     </a>
                   </li>
                 </ul>
@@ -167,7 +193,7 @@ function Footer() {
                       </svg>
 
                       <span class="flex-1 text-gray-700">
-                        +91-9868230229 / +91-9313462630
+                        +91-9868230229, 9313462630
                       </span>
                     </a>
                   </li>
@@ -194,7 +220,8 @@ function Footer() {
                     </svg>
 
                     <address class="-mt-0.5 flex-1 not-italic text-gray-700">
-                      New Delhi (India)
+                      Corresponding Office-21B Citizen Enclave, Prahsant Vihar,
+                      New Delhi(110085)(India)
                     </address>
                   </li>
                 </ul>

@@ -5,7 +5,7 @@ import i2 from "../../images/sponsors/2.png";
 import i3 from "../../images/sponsors/3.jpg";
 import i4 from "../../images/sponsors/4.jpg";
 import i5 from "../../images/sponsors/5.jpg";
-import i6 from "../../images/sponsors/6.jpg";
+import i6 from "../../images/sponsors/6.webp";
 import i7 from "../../images/sponsors/7.jpg";
 import i8 from "../../images/sponsors/8.jpg";
 import i9 from "../../images/sponsors/9.jpg";

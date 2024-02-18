@@ -33,7 +33,9 @@ function Navbar() {
         <Toolbar className="text-dark font-bold md:h-24 text-gray-900 backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200">
           {/* Adding Company name or logo here  */}
           <Typography component="div" sx={{ flexGrow: 1 }}>
+            <Link to="/">
             <img src={navlogo} className="h-14 md:h-24 md:mx-5"></img>
+            </Link>
           </Typography>
 
           {/* Navigation for laptop */}
@@ -71,8 +73,8 @@ function Navbar() {
             <GenMenu
               title="Publication"
               list={[
-                { option: "Books", href: "/publication" },
-                { option: "Souvenir", href: "/publication" },
+                { option: "Books", href: "/books" },
+                { option: "Souvenir", href: "/books" },
               ]}
               sx={{ display: { xs: "none", lg: "flex" } }}
             />
@@ -89,6 +91,7 @@ function Navbar() {
             <GenMenu
               title="Gallery"
               list={[
+                { option: "State Activity", href: "/state-activity" },
                 { option: "Photo - MFI Awards", href: "/award-photo" },
                 { option: "Video", href: "/video" },
                 { option: "News Coverage", href: "/news" },
@@ -120,8 +123,8 @@ function Navbar() {
             <GenMenu
               title="International"
               list={[
-                { option: "Journalists", href: "/journalist" },
-                { option: "Educators", href: "/int-educator" },
+                // { option: "Journalists", href: "/journalist" },
+                // { option: "Educators", href: "/int-educator" },
                 { option: "Associations", href: "/association" },
               ]}
               sx={{ display: { xs: "none", lg: "flex" } }}
@@ -213,8 +216,8 @@ function Navbar() {
                 title="Publication"
                 func={closeDrawer}
                 list={[
-                  { option: "Books", href: "/publication" },
-                  { option: "Souvenir", href: "/publication" },
+                  { option: "Books", href: "/books" },
+                  { option: "Souvenir", href: "/books" },
                 ]}
               />
               <GenMenu
@@ -231,6 +234,7 @@ function Navbar() {
                 title="Gallery"
                 func={closeDrawer}
                 list={[
+                  { option: "State Activity", href: "/state-activity" },
                   { option: "Photo - MFI Awards", href: "/award-photo" },
                   { option: "Video", href: "/video" },
                   { option: "News Coverage", href: "/news" },
@@ -269,8 +273,8 @@ function Navbar() {
                 title="International"
                 func={closeDrawer}
                 list={[
-                  { option: "Journalists", href: "/journalist" },
-                  { option: "Educators", href: "/int-educator" },
+                  // { option: "Journalists", href: "/journalist" },
+                  // { option: "Educators", href: "/int-educator" },
                   { option: "Associations", href: "/association" },
                 ]}
               />

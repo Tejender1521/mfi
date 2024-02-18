@@ -14,25 +14,44 @@ import vimal from '../../images/about/state/vimal.jpg'
 import ranjeet from '../../images/about/state/ranjeet.jpg'
 import arvind from '../../images/about/state/arvind.jpg'
 import devend from '../../images/about/state/devend.jpg'
+import bilal from "../../images/about/state/bilal.jpeg";
 
 function State() {
   const data = [
-    {name: 'Dr. Rajeev Pathria', image: rajeev, tag:'President (Himachal Pradesh)'},
-    {name: 'J.S.Bajaj', image: bajaj, tag:'President (Maharashtra)'},
-    {name: 'Saheb Singh Bajaj', image: saheb, tag:'President (Goa)'},
-    {name: 'Mukesh Bedi', image: mukesh, tag:'President (Uttar Pradesh)'},
-    {name: 'Arun Sharma', image: arun, tag:'President (Uttarakhand)'},
-    {name: 'Dilliram Dulal', image: dilliram, tag:'President (Sikkim)'},
-    {name: 'Anandpal Singh Tomar', image: anandpal, tag:'President (Rajasthan)'},
-    {name: 'Nand Kishor Yadav', image: nand, tag:'President (Chhattisgarh)'},
-    {name: 'Satyanarayan Sharma', image: satya, tag:'President (Madhya Pradesh)'},
-    {name: 'Vimal Manchanda', image: vimal, tag:'President (Jammu & Kashmir)'},
-    {name: 'Ranjeet Singh', image: ranjeet, tag:'President (Punjab)'},
-    {name: 'Arvind Prakash', image: arvind, tag:'President (Uttar Pradesh)'},
-    {name: 'Devendra Mandora', image: devend, tag:'President (Gujarat)'},
-    
-    
-   
+    {
+      name: "Dr. Rajeev Pathria",
+      image: rajeev,
+      tag: "President (Himachal Pradesh)",
+    },
+    { name: "J.S.Bajaj", image: bajaj, tag: "President (Maharashtra)" },
+    { name: "Saheb Singh Bajaj", image: saheb, tag: "President (Goa)" },
+    { name: "Mukesh Bedi", image: mukesh, tag: "President (Uttar Pradesh)" },
+    { name: "Arun Sharma", image: arun, tag: "President (Uttarakhand)" },
+    { name: "Dilliram Dulal", image: dilliram, tag: "President (Sikkim)" },
+    {
+      name: "Anandpal Singh Tomar",
+      image: anandpal,
+      tag: "President (Rajasthan)",
+    },
+    { name: "Nand Kishor Yadav", image: nand, tag: "President (Chhattisgarh)" },
+    {
+      name: "Satyanarayan Sharma",
+      image: satya,
+      tag: "President (Madhya Pradesh)",
+    },
+    {
+      name: "Vimal Manchanda",
+      image: vimal,
+      tag: "President (Jammu & Kashmir)",
+    },
+    { name: "Ranjeet Singh", image: ranjeet, tag: "President (Punjab)" },
+    { name: "Arvind Prakash", image: arvind, tag: "President (Uttar Pradesh)" },
+    { name: "Devendra Mandora", image: devend, tag: "President (Gujarat)" },
+    {
+      name: "Shri Bilal Bashir",
+      image: bilal,
+      tag: "President (Kashmir)",
+    },
   ];
   return (
     <>

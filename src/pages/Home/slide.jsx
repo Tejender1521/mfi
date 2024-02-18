@@ -29,15 +29,15 @@ function Slide() {
       <img alt="..." src={sliderimg4} className="rounded-xl" />
       <img alt="..." src={sliderimg5} className="rounded-xl" />
       <img alt="..." src={sliderimg6} className="rounded-xl" />
-      <img alt="..." src={sliderimg7} className="rounded-xl" />
+      {/* <img alt="..." src={sliderimg7} className="rounded-xl" /> */}
       <img alt="..." src={sliderimg8} className="rounded-xl" />
-      <img alt="..." src={sliderimg9} className="rounded-xl" />
+      {/* <img alt="..." src={sliderimg9} className="rounded-xl" /> */}
       <img alt="..." src={sliderimg10} className="rounded-xl" />
       <img alt="..." src={sliderimg11} className="rounded-xl" />
       <img alt="..." src={sliderimg12} className="rounded-xl" />
       <img alt="..." src={sliderimg13} className="rounded-xl" />
       <img alt="..." src={sliderimg14} className="rounded-xl" />
-      <img alt="..." src={sliderimg15} className="rounded-xl" />
+      {/* <img alt="..." src={sliderimg15} className="rounded-xl" /> */}
       <img alt="..." src={sliderimg16} className="rounded-xl" />
       <img alt="..." src={sliderimg17} className="rounded-xl" />
       <img alt="..." src={sliderimg18} className="rounded-xl" />

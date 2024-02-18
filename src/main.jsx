@@ -36,6 +36,8 @@ import MembershipOffline from "./pages/Form/MembershipOffline";
 import OrganisationOnline from "./pages/Form/OrganisationOnline";
 import OrganisationOffline from "./pages/Form/OrganisationOffline";
 import AboutUs from "./pages/About/AboutUs";
+import Books from "./pages/Publication/Books";
+import StateActivity from "./pages/Gallery/StateActivity";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -143,8 +145,8 @@ const router = createBrowserRouter([
         element: <Mou />,
       },
       {
-        path: "/publication",
-        element: <Comingsoon />,
+        path: "/books",
+        element: <Books />,
       },
       {
         path: "/journalist",
@@ -165,6 +167,10 @@ const router = createBrowserRouter([
       {
         path: "/projects",
         element: <Comingsoon />,
+      },
+      {
+        path: "/state-activity",
+        element: <StateActivity />,
       },
     ],
   },

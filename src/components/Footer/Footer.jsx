@@ -7,7 +7,7 @@ function Footer() {
     // </div>
     <>
       <footer class="bg-[#ecf3f6]">
-        <div class="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8 -mt-7">
+        <div class="mx-auto max-w-screen-xl px-4 pb-6 sm:px-6 lg:px-8 -mt-7">
           <div class="grid grid-cols-1 gap-4 lg:grid-cols-3">
             <div>
               <div class="flex justify-center sm:justify-start">
@@ -88,7 +88,7 @@ function Footer() {
                   Important Links
                 </p>
 
-                <ul class="mt-8 space-y-4 text-sm">
+                <ul class="mt-4 space-y-4 text-sm">
                   {/* <li>
                     <a
                       class="text-gray-700 transition hover:text-gray-700/75"
@@ -101,44 +101,44 @@ function Footer() {
                   <li>
                     <a
                       class="text-gray-700 transition hover:text-gray-700/75"
-                      href="/"
+                      href="https://www.presscouncil.nic.in/"
                     >
-                      PSU DIRECTORY
+                      Press Council of India
                     </a>
                   </li>
 
                   <li>
                     <a
                       class="text-gray-700 transition hover:text-gray-700/75"
-                      href="/"
+                      href="https://www.rni.nic.in/"
                     >
-                      GOVERNMENT MEDIA DIRECTORY
+                      Registrar Newspaper India
                     </a>
                   </li>
                   <li>
+                    <a
+                      class="text-gray-700 transition hover:text-gray-700/75"
+                      href="https://www.pib.gov.in/indexd.aspx"
+                    >
+                      Press Information Bureau
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="text-gray-700 transition hover:text-gray-700/75"
+                      href="https://www.davp.nic.in/"
+                    >
+                      Central Bureau of Communication
+                    </a>
+                  </li>
+                  {/* <li>
                     <a
                       class="text-gray-700 transition hover:text-gray-700/75"
                       href="/"
                     >
                       GOVERNMENT MEDIA DIRECTORY
                     </a>
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-700 transition hover:text-gray-700/75"
-                      href="/"
-                    >
-                      GOVERNMENT MEDIA DIRECTORY
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-700 transition hover:text-gray-700/75"
-                      href="/"
-                    >
-                      GOVERNMENT MEDIA DIRECTORY
-                    </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
 
@@ -239,7 +239,7 @@ function Footer() {
                         for="email"
                         class="block mb-1 text-gray-600 font-semibold"
                       >
-                        Username
+                        Email
                       </label>
                       <input
                         type="text"
@@ -248,10 +248,10 @@ function Footer() {
                     </div>
                     <div>
                       <label
-                        for="email"
+                        for="query"
                         class="block mb-1 text-gray-600 font-semibold"
                       >
-                        Email
+                        General Query
                       </label>
                       <input
                         type="text"
@@ -260,14 +260,14 @@ function Footer() {
                     </div>
                   </div>
                   <button class="mt-4 w-full bg-yellow-400 hover:bg-yellow-500 font-semibold py-2 rounded-md  tracking-wide">
-                    Subscribe
+                    Submit
                   </button>
                 </div>
               </form>
             </div>
           </div>
 
-          <div class="mt-4 border-t border-gray-100 pt-6">
+          <div class="mt-2 border-t border-gray-100">
             <div class="text-center sm:flex sm:justify-center sm:text-left">
               <p class="mt-1 text-sm text-gray-500 sm:order-first sm:mt-0">
                 &copy; 2023 All Right Reserved – Designed and Developed by

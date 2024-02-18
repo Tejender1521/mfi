@@ -10,6 +10,7 @@ import om from '../../images/about/advisor/om.jpg'
 import pradeep from '../../images/about/advisor/pradeep.jpeg'
 import sachin from '../../images/about/advisor/sachin.jpg'
 import shiva from '../../images/about/advisor/shiva.jpg'
+import yogesh from "../../images/about/advisor/yogesh.jpeg";
 import Title from '../../components/Title'
 
 
@@ -25,7 +26,8 @@ function Advisor() {
     {name: 'Dr. Ajay Gambhir', image: ajay},
     {name: 'Dr. Anhu Gambhir', image: anhu},
     {name: 'Dr. Pradeep Bhardwaj', image: pradeep},
-    {name: 'Dr. Anita Bhardwaj', image: anita}
+    { name: 'Dr. Anita Bhardwaj', image: anita },
+    {name: 'Dr. Yogesh Agarwal', image: yogesh}
    
   ];
 

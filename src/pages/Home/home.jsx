@@ -6,11 +6,10 @@ import Marquee from "./marquee"
 import businessimg from "../../images/homepage/business.webp"
 import eventimg from "../../images/homepage/event.webp";
 import aboutimg from "../../images/homepage/about.png";
-
+import aboutimg1 from "../../images/homepage/about.jpeg";
 
 function Home() {
   const [isDesktop, setDesktop] = useState(window.innerWidth > 1450);
-  
 
   const updateMedia = () => {
     setDesktop(window.innerWidth > 1450);
@@ -20,7 +19,6 @@ function Home() {
     window.addEventListener("resize", updateMedia);
     return () => window.removeEventListener("resize", updateMedia);
   });
-
 
   return (
     <div className="">
@@ -53,7 +51,7 @@ function Home() {
           </div>
         </div>
       </div> */}
-      <div className="md:h-[92vh] h-[40vh]">
+      <div className="md:h-[110vh] h-[40vh]">
         <Slide />
       </div>
       {/* <div className="container">
@@ -191,7 +189,7 @@ function Home() {
         <div
           className="h-screen bg-center bg-no-repeat bg-cover bg-fixed"
           style={{
-            backgroundImage: `url(${aboutimg})`,
+            backgroundImage: `url(${aboutimg1})`,
           }}
         ></div>
         <div className="h-96 py-5 mx-3 items-center row">

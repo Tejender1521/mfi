@@ -128,20 +128,26 @@ import img239 from "../../images/award/2022/IMG_8938-150x150.jpg";
 
 export const MuiImageList2022 = () => {
   return (
-    <Stack spacing={4} justifyContent={'center'} alignItems={'center'} p={1} mb={4}>
-      <ImageList  className='w-auto sm:w-8/12' cols={3} rowHeight={'auto'}>
-        {itemData.map(item => (
+    <Stack
+      spacing={4}
+      justifyContent={"center"}
+      alignItems={"center"}
+      p={1}
+      mb={4}
+    >
+      <ImageList className="w-auto sm:w-8/12" cols={3} rowHeight={"auto"}>
+        {itemData.map((item) => (
           <ImageListItem key={item.img}>
             <img
               src={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2`}
               alt={item.title}
-              loading='lazy'
+              loading="lazy"
             />
           </ImageListItem>
         ))}
       </ImageList>
     </Stack>
-  )
+  );
 }
 
 const itemData = [

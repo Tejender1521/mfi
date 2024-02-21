@@ -38,6 +38,8 @@ import OrganisationOffline from "./pages/Form/OrganisationOffline";
 import AboutUs from "./pages/About/AboutUs";
 import Books from "./pages/Publication/Books";
 import StateActivity from "./pages/Gallery/StateActivity";
+import CSR from "./pages/Csr/Csr";
+import Souvenir from "./pages/Publication/Souvenir";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -149,6 +151,10 @@ const router = createBrowserRouter([
         element: <Books />,
       },
       {
+        path: "/souvenir",
+        element: <Souvenir />,
+      },
+      {
         path: "/journalist",
         element: <Comingsoon />,
       },
@@ -165,8 +171,8 @@ const router = createBrowserRouter([
         element: <Contact />,
       },
       {
-        path: "/projects",
-        element: <Comingsoon />,
+        path: "/csr",
+        element: <CSR />,
       },
       {
         path: "/state-activity",

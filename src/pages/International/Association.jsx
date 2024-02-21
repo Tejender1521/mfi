@@ -22,7 +22,7 @@ function Association() {
       <Title text="Association's" />
       <div className="w-screen flex flex-wrap justify-around px-2">
         <Box my={4} width={{ sx: "300px", md: "70%" }}>
-          <Card>
+          <Card className="mb-5">
             <CardMedia component="img" height="140" image={img1} alt="image" />
             <CardContent>
               <div className="text-indigo-700 font-bold text-2xl my-4">
@@ -46,9 +46,43 @@ function Association() {
               </Typography>
             </CardContent>
           </Card>
+          <Card className="mb-5">
+            <CardMedia component="img" height="140" image={img2} alt="image" />
+            <CardContent>
+              <div className="text-indigo-700 font-bold text-2xl my-4">
+                Media Federation signed MoU with AAFT
+              </div>
+              <Typography variant="body1">
+                In the journey of shaking hands for the betterment & extention
+                to develop Country Class Media Centre, MFI has entered into
+                International Collaboration. These tie-ups will offer solutions
+                as well as support to Academic Partners, Media Houses and Press
+                Associations also. <br></br> <br></br> The notable initiative
+                has taken by Media Federation of India to get associated with
+                the Media & Entertainment Committee BIS of the Government of
+                India. Dr. Sandeep Marwah, National President of M&EC- BIS & Mr.
+                Arun Sharma, President – Media Federation of India agreed to
+                work together for comprehensive makeover of the Industry.
+              </Typography>
+            </CardContent>
+          </Card>
+          <Card className="mb-5">
+            <CardMedia component="img" height="140" image={img3} alt="image" />
+            <CardContent>
+              <div className="text-indigo-700 font-bold text-2xl my-4">
+                Media Federation signed MoU with ACN Networks
+              </div>
+              <Typography variant="body1">
+                ACN Network inks MoU with Media Federation of India to set up
+                Federation’s Asian chapters. Both sides would work together to
+                enhance cooperation with various Foreign Media Houses, Media
+                Associations & Federations, and Media Clubs in Asian nations.
+              </Typography>
+            </CardContent>
+          </Card>
         </Box>
       </div>
-      <Grid container mt={2}>
+      {/* <Grid container mt={2}>
         <Grid
           item
           sx
@@ -116,7 +150,7 @@ function Association() {
             Associations & Federations, and Media Clubs in Asian nations.
           </p>
         </Grid>
-      </Grid>
+      </Grid> */}
     </>
   );
 }

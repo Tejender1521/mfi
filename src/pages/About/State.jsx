@@ -35,7 +35,7 @@ function State() {
     },
     { name: "Nand Kishor Yadav", image: nand, tag: "President (Chhattisgarh)" },
     {
-      name: "Satyanarayan Sharma",
+      name: "Satender Sharma",
       image: satya,
       tag: "President (Madhya Pradesh)",
     },
@@ -48,9 +48,9 @@ function State() {
     { name: "Arvind Prakash", image: arvind, tag: "President (Uttar Pradesh)" },
     { name: "Devendra Mandora", image: devend, tag: "President (Gujarat)" },
     {
-      name: "Shri Bilal Bashir",
+      name: "Bilal Bashir",
       image: bilal,
-      tag: "President (Kashmir)",
+      tag: "President (Kashmir Region)",
     },
   ];
   return (

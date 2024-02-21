@@ -74,7 +74,7 @@ function Navbar() {
               title="Publication"
               list={[
                 { option: "Books", href: "/books" },
-                { option: "Souvenir", href: "/books" },
+                { option: "Souvenir", href: "/souvenir" },
               ]}
               sx={{ display: { xs: "none", lg: "flex" } }}
             />
@@ -134,7 +134,7 @@ function Navbar() {
               list={[{ option: "Projects", href: "/projects" }]}
               sx={{ display: { xs: "none", lg: "flex" } }}
             /> */}
-            <Link to="/projects">
+            <Link to="/csr">
               <Button
                 variant="contained"
                 color="error"
@@ -217,7 +217,7 @@ function Navbar() {
                 func={closeDrawer}
                 list={[
                   { option: "Books", href: "/books" },
-                  { option: "Souvenir", href: "/books" },
+                  { option: "Souvenir", href: "/souvenir" },
                 ]}
               />
               <GenMenu
@@ -283,7 +283,7 @@ function Navbar() {
                 func={closeDrawer}
                 list={[{ option: "Projects", href: "/projects" }]}
               /> */}
-              <Link to="/projects">
+              <Link to="/csr">
                 <Button variant="contained" color="error">
                   CSR/Projects
                 </Button>

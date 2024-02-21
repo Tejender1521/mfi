@@ -17,13 +17,14 @@ import { MuiImageList2010 } from "./2010";
 import { MuiImageList2009 } from "./2009";
 import { MuiImageList2008 } from "./2008";
 import { MuiImageList2007 } from "./2007";
+import { MuiImageList2023 } from './2023';
 function Award() {
   return (
     <>
       <Title text="Awards Gallery" />
       <Tabs defaultIndex={0} className="">
         <TabList className="text-indigo-800 flex flex-wrap justify-around text-xl md:mx-10 sm:text-3xl my-6">
-          
+          <Tab className="px-4 pt-2 pb-3 cursor-pointer">2023</Tab>
           <Tab className="px-4 pt-2 pb-3 cursor-pointer">2022</Tab>
           <Tab className="px-4 pt-2 pb-3 cursor-pointer">2021</Tab>
           <Tab className="px-4 pt-2 pb-3 cursor-pointer">2020</Tab>
@@ -41,7 +42,9 @@ function Award() {
           <Tab className="px-4 pt-2 pb-3 cursor-pointer">2007</Tab>
         </TabList>
 
-        
+        <TabPanel>
+          <MuiImageList2023 />
+        </TabPanel>
         <TabPanel>
           <MuiImageList2022 />
         </TabPanel>

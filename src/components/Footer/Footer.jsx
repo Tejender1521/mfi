@@ -1,6 +1,20 @@
 import React from "react";
+import { useForm } from "react-hook-form";
+
 import logo from "../../images/logo/logo.png";
 function Footer() {
+  const {
+    register,
+    trigger,
+    formState: { errors },
+  } = useForm();
+
+  const onSubmit = async () => {
+    const isValid = await trigger();
+    if (!isValid) {
+      e.preventDefault();
+    }
+  };
   return (
     // <div className='bg-indigo-700 text-white red'>
     //   <h1 className='text-4xl border-2 border-red-800 px-7 py-2'>Footer</h1>
@@ -231,7 +245,13 @@ function Footer() {
 
               </div> */}
 
-              <form class="-mt-8">
+              <form
+                class="-mt-8"
+                target="_blank"
+                onSubmit={onSubmit}
+                action="https://formsubmit.co/code.tejender@gmail.com"
+                method="POST"
+              >
                 <div class="bg-white px-14 py-8 md:px-4 rounded-xl shadow-md">
                   <div class="space-y-4">
                     <div>
@@ -243,9 +263,14 @@ function Footer() {
                       </label>
                       <input
                         type="text"
+                        {...register("email", {
+                          required: true,
+                          maxLength: 100,
+                        })}
                         class="bg-indigo-50 px-4 py-2 outline-none rounded-md w-full"
                       />
                     </div>
+                    
                     <div>
                       <label
                         for="query"
@@ -255,11 +280,17 @@ function Footer() {
                       </label>
                       <input
                         type="text"
+                        {...register("message", {
+                          required: true,
+                        })}
                         class="bg-indigo-50 px-4 py-2 outline-none rounded-md w-full"
                       />
                     </div>
                   </div>
-                  <button class="mt-4 w-full bg-yellow-400 hover:bg-yellow-500 font-semibold py-2 rounded-md  tracking-wide">
+                  <button
+                    type="submit"
+                    class="mt-4 w-full bg-yellow-400 hover:bg-yellow-500 font-semibold py-2 rounded-md  tracking-wide"
+                  >
                     Submit
                   </button>
                 </div>

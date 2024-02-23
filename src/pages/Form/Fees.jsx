@@ -19,7 +19,7 @@ function Fees() {
               </p>
 
               <p className="font-bold">
-                International Associate Member US $ : 1000 Per year
+                International Associate Member US $ : 100 Per year
               </p>
               <br />
               <p className="font-bold">

@@ -9,7 +9,7 @@ import arun from '../../images/about/state/arun.jpg'
 import dilliram from '../../images/about/state/dilliram.jpg'
 import anandpal from '../../images/about/state/anandpal.jpg'
 import nand from '../../images/about/state/nand.jpg'
-import satya from '../../images/about/state/satya.jpg'
+import satender from '../../images/about/state/satender.jpg'
 import vimal from '../../images/about/state/vimal.jpg'
 import ranjeet from '../../images/about/state/ranjeet.jpg'
 import arvind from '../../images/about/state/arvind.jpg'
@@ -34,11 +34,7 @@ function State() {
       tag: "President (Rajasthan)",
     },
     { name: "Nand Kishor Yadav", image: nand, tag: "President (Chhattisgarh)" },
-    {
-      name: "Satender Sharma",
-      image: satya,
-      tag: "President (Madhya Pradesh)",
-    },
+
     {
       name: "Vimal Manchanda",
       image: vimal,
@@ -51,6 +47,11 @@ function State() {
       name: "Bilal Bashir",
       image: bilal,
       tag: "President (Kashmir Region)",
+    },
+    {
+      name: "Satender Sharma",
+      image: satender,
+      tag: "President (Madhya Pradesh)",
     },
   ];
   return (

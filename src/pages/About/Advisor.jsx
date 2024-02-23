@@ -12,23 +12,27 @@ import sachin from '../../images/about/advisor/sachin.jpg'
 import shiva from '../../images/about/advisor/shiva.jpg'
 import yogesh from "../../images/about/advisor/yogesh.jpeg";
 import Title from '../../components/Title'
-
+import satya from "../../images/about/state/satya.jpg";
 
 function Advisor() {
 
   const data = [
-    {name: 'Dr. Sandeep Marwah', image: saneep},
-    {name: 'Mr. Shiva Bhatia', image: shiva},
-    {name: 'Mr. Om Prakash', image: om},
-    {name: 'Dr. Sachin Batra', image: sachin},
-    {name: 'Mr. Narendra Singh Bisht', image: narendra},
-    {name: 'Mr. Arvind k Singh', image: arvind},
-    {name: 'Dr. Ajay Gambhir', image: ajay},
-    {name: 'Dr. Anhu Gambhir', image: anhu},
-    {name: 'Dr. Pradeep Bhardwaj', image: pradeep},
-    { name: 'Dr. Anita Bhardwaj', image: anita },
-    {name: 'Dr. Yogesh Agarwal', image: yogesh}
-   
+    { name: "Dr. Sandeep Marwah", image: saneep },
+    { name: "Mr. Shiva Bhatia", image: shiva },
+    { name: "Mr. Om Prakash", image: om },
+    { name: "Dr. Sachin Batra", image: sachin },
+    { name: "Mr. Narendra Singh Bisht", image: narendra },
+    { name: "Mr. Arvind k Singh", image: arvind },
+    { name: "Dr. Ajay Gambhir", image: ajay },
+    { name: "Dr. Anhu Gambhir", image: anhu },
+    { name: "Dr. Pradeep Bhardwaj", image: pradeep },
+    { name: "Dr. Anita Bhardwaj", image: anita },
+    { name: "Dr. Yogesh Agarwal", image: yogesh },
+    {
+      name: "Satyanarayan Sharma",
+      image: satya,
+      tag: "President (Madhya Pradesh)",
+    },
   ];
 
   return (

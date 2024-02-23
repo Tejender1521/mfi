@@ -40,6 +40,9 @@ import Books from "./pages/Publication/Books";
 import StateActivity from "./pages/Gallery/StateActivity";
 import CSR from "./pages/Csr/Csr";
 import Souvenir from "./pages/Publication/Souvenir";
+import Crowdfunding from "./pages/Event/Crowdfunding";
+import Journalists from "./pages/International/Journalists";
+import Educators from "./pages/International/Educators";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -154,10 +157,7 @@ const router = createBrowserRouter([
         path: "/souvenir",
         element: <Souvenir />,
       },
-      {
-        path: "/journalist",
-        element: <Comingsoon />,
-      },
+
       {
         path: "/int-educator",
         element: <Comingsoon />,
@@ -165,6 +165,10 @@ const router = createBrowserRouter([
       {
         path: "/association",
         element: <Association />,
+      },
+      {
+        path: "/journalist",
+        element: <Journalists />,
       },
       {
         path: "/contact",
@@ -175,8 +179,16 @@ const router = createBrowserRouter([
         element: <CSR />,
       },
       {
+        path: "/educators",
+        element: <Educators />,
+      },
+      {
         path: "/state-activity",
         element: <StateActivity />,
+      },
+      {
+        path: "/crowdfunding",
+        element: <Crowdfunding />,
       },
     ],
   },

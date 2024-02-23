@@ -34,7 +34,7 @@ function Navbar() {
           {/* Adding Company name or logo here  */}
           <Typography component="div" sx={{ flexGrow: 1 }}>
             <Link to="/">
-            <img src={navlogo} className="h-14 md:h-24 md:mx-5"></img>
+              <img src={navlogo} className="h-14 md:h-24 md:mx-5"></img>
             </Link>
           </Typography>
 
@@ -63,6 +63,7 @@ function Navbar() {
               title="Events"
               list={[
                 { option: "Awards", href: "/award" },
+                { option: "Crowdfunding", href: "/crowdfunding" },
                 { option: "Seminar", href: "/seminar" },
                 { option: "Buisness Meet", href: "/meet" },
                 { option: "Movies", href: "/movie" },
@@ -123,8 +124,8 @@ function Navbar() {
             <GenMenu
               title="International"
               list={[
-                // { option: "Journalists", href: "/journalist" },
-                // { option: "Educators", href: "/int-educator" },
+                { option: "Journalists", href: "/journalist" },
+                { option: "Educators", href: "/educators" },
                 { option: "Associations", href: "/association" },
               ]}
               sx={{ display: { xs: "none", lg: "flex" } }}
@@ -143,6 +144,7 @@ function Navbar() {
                 CSR/Projects{" "}
               </Button>
             </Link>
+
             <Link to="/contact">
               <Button
                 color="inherit"
@@ -206,6 +208,7 @@ function Navbar() {
                 func={closeDrawer}
                 list={[
                   { option: "Awards", href: "/award" },
+                  { option: "Crowdfunding", href: "/crowdfunding" },
                   { option: "Seminar", href: "/seminar" },
                   { option: "Buisness Meet", href: "/meet" },
                   { option: "Movies", href: "/movie" },
@@ -273,8 +276,8 @@ function Navbar() {
                 title="International"
                 func={closeDrawer}
                 list={[
-                  // { option: "Journalists", href: "/journalist" },
-                  // { option: "Educators", href: "/int-educator" },
+                  { option: "Journalists", href: "/journalist" },
+                  { option: "Educators", href: "/educators" },
                   { option: "Associations", href: "/association" },
                 ]}
               />
